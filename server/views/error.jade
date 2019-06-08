@@ -1,0 +1,14 @@
+extends layout
+
+block body
+  div
+    a(href='/') Home
+    | 
+    a(href='/default') Default
+    h2 Server-side error.jade  
+    title= title
+    div
+    h3 Message
+    h1= message
+    h2= error.status
+    pre #{error.stack}

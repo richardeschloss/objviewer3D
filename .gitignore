@@ -1,0 +1,7 @@
+bin
+bower_components
+node_modules
+public/assets/tmp
+.bat
+.exe
+.lnk

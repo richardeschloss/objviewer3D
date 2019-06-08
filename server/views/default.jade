@@ -1,0 +1,9 @@
+extends layout
+
+block body
+  div
+    a(href='/') Home
+    h2 Server-side default.jade
+    title= title
+    h3 Data:
+    pre #{JSON.stringify(data, null, "  ")}

@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en" ng-app="ObjViewer3D">
+<head>
+  <meta charset="utf-8">
+  <title>OBJ 3D Viewer</title>
+
+  <!-- CSS -->
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="../bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/navbar.css"/>
+  <link rel="stylesheet" href="css/app.css"/>
+  <link rel="stylesheet" href="css/animations.css"/>
+
+  <!-- JS -->
+  <script src="../jquery/jquery-2.1.0.min.js"></script>
+  <script src="../bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="../angular/angular.min.js"></script>
+  <script src="../angular-animate/angular-animate.min.js"></script>
+  <script src="../angular-route/angular-route.min.js"></script>
+  <script src="../angular-resource/angular-resource.js"></script>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="../mootools-core-1.5.1-full-nocompat.js"></script>
+  <script src="../Eye.js"></script>
+
+  <!-- TBD -->
+  <script src="../three.min.js"></script>
+  <script src="../three/js/loaders/ColladaLoader.js"></script>
+  <script src="../three/js/loaders/OBJLoader.js"></script>
+  <script src="../three/js/Detector.js"></script>
+
+
+
+  <script src="js/app.js"></script>
+  <script src="js/animations.js"></script>
+  <script src="js/services.js"></script>
+  <script src="js/controllers.js"></script>
+  <script src="js/filters.js"></script>
+  <script src="js/directives.js"></script>
+
+</head>
+<body ng-controller="ObjViewer3DController" on-keyup-fn>
+  <div init-navbar></div>
+
+  <div class="container-fluid" style="margin-top:55px;">
+	  <div class="view-container">
+	      <div ng-view class="view-frame"></div>
+	  </div>
+  </div>
+
+</body>
+
+</html>

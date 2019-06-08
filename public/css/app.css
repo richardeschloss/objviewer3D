@@ -1,0 +1,89 @@
+/* Glyphs / Fonts */
+@font-face {
+	font-family: 'icomoon';
+	src:url('fonts/icomoon.eot?3s07i6');
+	src:url('fonts/icomoon.eot?#iefix3s07i6') format('embedded-opentype'),
+		url('fonts/icomoon.woff?3s07i6') format('woff'),
+		url('fonts/icomoon.ttf?3s07i6') format('truetype'),
+		url('fonts/icomoon.svg?3s07i6#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-cool:before {
+	content: "\e600";
+}
+.icon-point-left:before {
+	content: "\e601";
+}
+
+/* StocksDash */
+.dash_padding{ 
+    padding-top: 45px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.nothing{
+
+}
+
+.goodIf,
+.goodnumber{
+    background: #fefcea;
+    background: -moz-linear-gradient(top, #fefcea 0%, #f1da36 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fefcea), color-stop(100%,#f1da36));
+    background: -webkit-linear-gradient(top, #fefcea 0%,#f1da36 100%);
+    background: -o-linear-gradient(top, #fefcea 0%,#f1da36 100%);
+    background: -ms-linear-gradient(top, #fefcea 0%,#f1da36 100%);
+    background: linear-gradient(to bottom, #fefcea 0%,#f1da36 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefcea', endColorstr='#f1da36',GradientType=0 );
+}
+
+.hide_dash,
+.hide_item,
+.hide_jumbo{
+    display: none;
+}
+
+.hover{
+    border-color: yellow;
+}
+
+.menyItemActive{
+    color: #f5f5f5; 	
+}
+
+#pieChartOptionsBtns{
+	float: right;
+	margin-top:-30px;
+}
+
+.updateAcctTh{
+    width:      25%; 
+    height:     35px;
+    text-align: center;
+}
+
+.updateAcctTd{
+    width:      25%; 
+    text-align: center;
+}
+
+.updateAcctTdText{ 
+    text-align: center;
+}

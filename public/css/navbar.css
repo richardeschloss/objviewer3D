@@ -1,0 +1,32 @@
+/*
+ * navbar.css
+ */
+ 
+ 
+ /* Moving Eyes */
+ .face {
+    position: relative;
+    margin: 0px auto;
+    margin-top: 10px;
+    width:  49px;
+    height: 41px;
+    background: url(../assets/img/head.png) no-repeat;
+}
+
+.left_eye {
+    position: absolute;
+    left: 11px;
+    top:  13px;
+    width:  3px;
+    height: 3px;
+    background: url(../assets/img/leftPupil.png) no-repeat;
+}
+
+.right_eye {
+    position: absolute;
+    left: 36px;
+    top:  13px;
+    width:  3px;
+    height: 4px;
+    background: url(../assets/img/rightPupil.png) no-repeat;
+}

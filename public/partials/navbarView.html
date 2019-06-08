@@ -1,0 +1,29 @@
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation" ng-controller="NavbarController">
+  <div class="container-fluid">
+    <div class="navbar-header">
+		 <a href="#" class="navbar-brand">
+             OBJ Viewer 3D
+		 </a>
+    </div>
+
+ 	<div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+      	<li>
+      		<input id="fileChooser" type="file" file-model="myFile" style="visibility: hidden;"></input>
+      	</li>
+     	<li>
+     		<button id="uploadFile" type="button"class="btn btn-default btn-md navbar-btn" custom-click="#fileChooser">
+	           <span class="glyphicon glyphicon-upload"></span> Upload File
+	       	</button>
+	   </li>
+      </ul>
+      <div class="face">
+	  	<div id="left_eye1" class="left_eye"></div>
+	  	<div id="right_eye1" class="right_eye"></div>
+	  </div>
+    </div>
+  </div>
+
+</div>
+
+<script src="../Eye-init.js"></script>
