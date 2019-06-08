@@ -9,5 +9,7 @@ OBJ Viewer 3D (old -- angularjs)
 
 * Still want to play with it? 
 > git clone
+
 > npm start
+
 --> Navigate to localhost:8000 and upload the OBJ files in the `examples/` folder. Have fun!
